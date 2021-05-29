@@ -1,0 +1,99 @@
+.delever-kont {
+  display: flex;
+  justify-content: center;
+  margin-top: 150px;
+}
+.delever-kont-wrapper {
+  width: 90%;
+}
+.delever-l-r-wrapper {
+  display: flex;
+}
+.delever-left {
+  display: flex;
+  align-items: center;
+}
+.delever-right {
+  display: flex;
+  justify-content: center;
+}
+.delever-right-wrapper {
+  width: 80%;
+}
+.delever-title-icon {
+}
+.delever-title-icon-wrapper {
+  display: flex;
+  background-color: rgba(255, 87, 34, 0.2);
+  color: #ff5722;
+  width: 30%;
+  align-items: center;
+  padding: 4px 16px;
+  border-radius: 100px;
+  font-size: 14px;
+  line-height: 28px;
+  font-weight: 500;
+  justify-content: center;
+  margin-top: 15px;
+}
+.delever-title-icon-wrapper p {
+  margin-top: 15px;
+  margin-left: 10px;
+}
+.delever-text {
+  margin-top: 30px;
+}
+.delever-text p {
+  width: 70%;
+}
+.delever-card-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+}
+.del-card {
+  width: 30%;
+  background-color: #f4f7ff;
+  margin-bottom: 15px;
+  padding: 16px;
+  border-radius: 8px;
+  min-width: 100px;
+  margin-left: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.del-card-text p{
+    font-weight: 700;
+    text-rendering: optimizeLegibility;
+    line-height: 1.1;
+    font-family: Manrope,sans-serif;
+}
+
+@media (max-width:800px){
+  .delever-l-r-wrapper{
+    display: flex;
+    flex-direction: column-reverse ;
+  }
+  .delever-left img{
+    width: 100%;
+  }
+  .delever-title-icon-wrapper{
+    width: 50%;
+    margin-top: 30px;
+  }
+  .delever-text p{
+    width: 100%;
+  }
+  .delever-card-wrapper{
+    display: flex;
+    flex-direction: column;
+  }
+  .del-card{
+    width: 100%!important;
+    margin-left: 0px!important;
+  }
+  .delever-left{
+    margin-top: 50px;
+  }
+}

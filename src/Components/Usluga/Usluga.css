@@ -1,0 +1,59 @@
+.usluga-cont{
+    display: flex;
+    justify-content: center;
+}
+.usluga-wrapper{
+    width: 80%;
+}
+.usluga-card-wrapper{
+    margin-top: 50px;
+}
+.usluga-card{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.card{
+    width: 30%;
+    margin-bottom: 24px;
+    padding: 32px;
+    border-radius: 8px;
+    background-color: #f4f7ff;
+    margin-left: 30px;
+    border: none;
+}
+.card-icon img{
+    border-style: none;
+    max-width: 100%;
+    padding: 0;
+}
+.card-text p{
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 600;
+    color: #18191f;
+    font-family: Manrope,sans-serif;
+    padding: 30px 0;
+}
+@media (max-width: 800px){
+    .usluga-title{
+        display: flex;
+        justify-content: center;
+    }
+    .usluga-card{
+        display: flex;
+        width: 100%!important;
+    }
+    .card{
+        width: 100%;
+    }
+}
+@media (min-width:801px) and (max-width:1024px){
+    .card{
+        width: 40%;
+    }
+    .usluga-title{
+        display: flex;
+        justify-content: center;
+    }
+}

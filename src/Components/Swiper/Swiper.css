@@ -1,0 +1,11 @@
+.mySwiper{
+    margin-top: 50px;
+}
+@media (max-width:1024px){
+    .mySwiper{
+        display: none;
+    }
+    .swiper-title{
+        display: none;
+    }
+}

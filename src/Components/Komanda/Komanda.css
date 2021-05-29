@@ -1,0 +1,79 @@
+.komanda-cont{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    background-color: #f4f7ff;
+    padding: 50px 0;
+}
+.komanda-wrapper{
+    width: 90%;
+}
+.komanda-l-r-wrapper{
+    display: flex;
+    margin-top: 70px;
+}
+.komanda-left{
+    flex:  0 0 50%;
+}
+.komanda-left-wrapper{
+    width: 80%;
+}
+.komanda-left-text p{
+    font-size: 20px;
+    line-height: 40px;
+    font-weight: 500;
+    color: #464359;
+    font-family: Manrope,sans-serif;
+}
+.komanda-left-counter{
+    margin-top: 50px;    
+}
+.komanda-left-counter h2{
+    margin-bottom: 4px;
+    font-size: 120px;
+    line-height: 96px;
+    font-weight: 700;
+    color: #1b5bf7;
+    font-family: Manrope , sans-serif;
+}
+.komanda-left-counter p{
+    font-size: 40px;
+    line-height: 72px;
+    font-weight: 800;
+    color: #464359;
+}
+
+@media (max-width:800px){
+    .komanda-cont{
+        width: 100%!important;
+    }
+    .komanda-title{
+        text-align: center;
+    }
+    .komanda-l-r-wrapper{
+        display: flex;
+        flex-direction: column;
+    }
+    .komanda-left-wrapper{
+        width: 100%;
+    }
+   .komanda-right img{
+       width: 100%;
+   }
+   .komanda-left-counter{
+       margin-top: 100px;
+   }
+   .komanda-right{
+       margin-top: 50px;
+   }
+   
+}
+
+
+
+
+
+
+
+
+

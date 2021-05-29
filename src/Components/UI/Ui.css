@@ -1,0 +1,78 @@
+.ui-kont{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+.ui-wrapper{
+    width: 90%;
+}
+.ui-l-r-wrapper{
+    display: flex;
+}
+.ui-left-text p{
+    
+    font-size: 24px;
+    line-height: 40px;
+    font-weight: 500;
+    color: #18191f;
+
+}
+.ui-left-cards{
+    display: flex;
+    flex-wrap: wrap;
+    width: 70%;
+}
+.ui-card{
+    width: 30%;
+    min-width: 100px;
+    padding: 10px 20px 10px 10px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    background-color: #f4f7ff;
+}
+.ui-tex-cards{
+    display: flex;
+    width: 70%;
+    justify-content: space-around;
+}
+.ui-tex-card img{
+    width: 45px;
+    height: 40px;
+}
+
+.ui-right-wrapper{
+    background: url('https://udevs.io/static/bg_pattern-bfa00f19a06604ab492274cd3d9ea5cf.png');
+}
+
+
+
+@media (max-width:800px){
+    .ui-l-r-wrapper{
+        display: flex;
+        flex-direction: column;
+    }
+    .ui-left-cards{
+        width: 100%!important;
+    }
+    .ui-card{
+        width: 100%;
+    }
+    .ui-right-wrapper img{
+        width: 100%;
+    }
+    .ui-texnologiya{
+        margin-top: 50px;
+    }
+    .ui-tex-cards{
+        width: 100%!important;
+    }
+    .ui-right{
+        margin-top: 50px;
+    }
+}
+
+
+
+
+

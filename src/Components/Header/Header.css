@@ -1,0 +1,114 @@
+.header-section{
+    padding: 120px 0;
+    display: flex;
+}
+.header-left{
+    flex:  0 0 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+.header-left-img{
+    margin-top: 50px;
+    width: 100%;
+}
+.header-left-img img{
+    margin-left: 50px;
+}
+.header-left-text{
+    margin-top: 50px;
+    width: 100%;
+}
+.header-left-text h2{
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 54px;
+    color: #464359;
+}
+.header-left-text p{
+    color: #1b5bf7;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 54px;
+}
+.header-left-text h2,
+.header-left-text p{
+    margin-left: 50px;
+    width: 100%;
+}
+.header-left-btn{
+    width: 100%;
+    margin-top: 50px;
+}
+.header-left-btn Button{
+    margin-left: 50px;
+    padding: 13px 16px;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 600;
+    min-width: 112px;
+    max-width: 248px;
+    text-align: center;
+    border-radius: 8px;
+}
+.header-right{
+    flex: 0 0 50%;
+    display: flex;
+    justify-content: center;
+}
+
+@media (max-width: 800px){
+    .header-section{
+        display: flex;
+        flex-direction: column!important;
+
+    }
+    .header-left{
+        flex: 0 0 100%!important;
+        justify-content: center!important;
+        display: flex;
+        justify-content: center!important;
+    }
+    .header-left-img{
+        display: flex;
+        justify-content: center;
+    }
+    .header-left-img img{
+        margin-left: 0!important;
+    }
+    .header-left-text{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .header-left-btn{
+        display: flex;
+        justify-content: center;
+        padding: 50px;
+    }
+    .header-left-btn Button{
+        margin-left: 0!important;
+        width: 400px;
+        max-width: 500px!important;
+        height: 90px;
+    }
+    .header-right{
+        display: flex;
+        justify-content: center;
+    }
+    .header-right img{
+        width: 70%;
+    }
+
+
+}
+
+
+
+
+
+
+
+

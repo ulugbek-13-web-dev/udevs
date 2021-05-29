@@ -1,0 +1,60 @@
+.kakmi-kont{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+.kakmi-wrapper{
+    width: 95%;
+}
+.kakmi-cards{
+    display: flex;
+    margin-top: 50px;
+}
+.kakmi-title{
+    margin-left: 50px;
+}
+.kakmi-icon{
+    text-align: center;
+}
+.kakmi-text{
+    text-align: center;
+}
+.kakmi-text h2{
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 700;
+    font-family: Manrope,sans-serif;
+    color: #000000cc;
+}
+.kakmi-text p{
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 400;
+    margin: 0;
+    padding: 0 20px;
+}
+
+@media (max-width:800px){
+    .kakmi-title{
+        margin-left: 0!important;
+        text-align: center;
+    }
+    .kakmi-cards{
+        display: flex;
+        flex-direction: column;
+    }
+    .kakmi-card{
+        margin-top: 30px;
+    }
+    .makeStyles-root-1 > *{
+        width: 100%!important;
+    }
+    
+}
+
+
+
+
+
+
+

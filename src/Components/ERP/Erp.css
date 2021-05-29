@@ -1,0 +1,87 @@
+.erp-kont {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+  background-color: #f4f7ff;
+}
+.erp-wrapper {
+  width: 80%;
+}
+.erp-l-r-wrapper {
+  display: flex;
+}
+.erp-left {
+  background-color: white;
+  flex: 0 0 50%;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.erp-left-wrapper {
+  background: url("https://udevs.io/static/bg_pattern-bfa00f19a06604ab492274cd3d9ea5cf.png");
+  background-repeat: no-repeat;
+  display: flex;
+  height: 400px;
+  justify-content: center;
+}
+.erp-left img {
+  position: relative;
+  width: 70%;
+  object-fit: contain;
+}
+.erp-right {
+  margin-left: 50px;
+}
+.erp-right-text {
+  display: flex;
+}
+.erp-right-text p {
+  font-size: 24px;
+  line-height: 40px;
+  font-weight: 500;
+  color: #18191f;
+  width: 65%;
+}
+.erp-right-cards {
+  display: flex;
+  flex-wrap: wrap;
+}
+.erp-card {
+  width: 30%;
+  background-color: #e0e8ff;
+  display: block;
+  min-width: 100px;
+  padding: 10px 20px 10px 10px;
+  margin-right: 15px;
+  margin-bottom: 15px;
+  border-radius: 8px;
+}
+
+@media (max-width: 800px) {
+  .erp-kont {
+  }
+  .erp-l-r-wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+  .erp-right {
+    margin-left: 0 !important;
+  }
+  .erp-right-text {
+    width: 100% !important;
+    margin-top: 30px;
+  }
+  .erp-right-text p {
+    width: 100% !important;
+  }
+  erp-right-cards{
+      width: 100%!important;
+  }
+  .erp-card{
+      width: 100%!important;
+  }
+  .erp-card-text p{
+      font-size: 25px;
+  }
+}
